@@ -428,6 +428,9 @@ PRODUCT_PACKAGES += \
 # Tools
 #
 
+PRODUCT_PACKAGES += \
+	resetprop.universal7420   # Required for setting ro.*-properties for dual-SIM support
+
 PRODUCT_HOST_PACKAGES += \
         dtbhtoolExynos
 
